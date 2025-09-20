@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Webpage Layout</title>
+    <style>
+        
+        /* Header */
+        #header {
+            background-color: #ba1558;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation bar */
+        #navbar {
+            text-align: center;
+            background-color: #f9e3e3;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        #navbar a {
+            display: inline-block;;
+            color: #ba1558;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        #navbar a:hover {
+            text-align: center;
+            background-color: #ba1558;
+            color: #f9e3e3;
+        }
+
+        /* Sidebar */
+        #sidebar {
+            float: left;
+            width: 25%;
+            background-color: #f7ebeb;
+            padding: 15px;
+            box-shadow: 2px 2px 5px #ba1558(0,0,0,0.2);
+        }
+
+        /* Main content */
+        #main {
+            float: right;
+            width: 70%;
+            background-color: #f7ebeb;
+            padding: 15px;
+            box-shadow: 2px 2px 5px #f9e3e3(0,0,0,0.2);
+        }
+
+        /* Footer */
+        #footer {
+
+            background-color: #ba1558;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <h1>Layout</h1>
+    </div>
+
+    <!-- Navigation bar -->
+    <div id="navbar">
+        <a href="https://www.w3schools.com/">Task 1</a>
+        <a href="https://www.w3schools.com/">Task 2</a>
+        <a href="https://www.w3schools.com/">Task 3</a>
+        <a href="https://www.w3schools.com/">Task 4</a>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="https://www.w3schools.com/">Link 1</a></li>
+            <li><a href="https://www.w3schools.com/">Link 2</a></li>
+            <li><a href="https://www.w3schools.com/">Link 3</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <h2>Main Content</h2>
+        <p>
+            This is the main content area.  
+            It is floated to the right of the sidebar.  
+            You can add more text or images here.
+            <br> text text
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        &copy; 2025 My Website
+    </div>
+
+</body>
+</html>
